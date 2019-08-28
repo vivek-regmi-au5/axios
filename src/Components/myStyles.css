@@ -1,0 +1,31 @@
+.primary {
+  color: orange;
+}
+.user-card {
+  width: 40%;
+  border: 2px solid red;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  margin: 30px;
+  display: block;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.name {
+  color: #216583;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.username {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #216583;
+}
+.sname {
+  color: #696464;
+}
+
+.susername {
+  color: #dc5353;
+}
