@@ -8,7 +8,8 @@ const User = props => {
         <span className="sname">Name: </span>
         {props.pers.name}
       </p>
-      <input type="text"></input>
+      <input type="text" value={props.pers.name} onChange={props.onChnge} />
+
       <p className="username">
         <span className="susername">username: </span>
         {props.pers.username}{" "}
